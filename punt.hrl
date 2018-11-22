@@ -1,0 +1,1 @@
+-record(punt, {x=0, y=0}).
