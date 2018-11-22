@@ -1,8 +1,7 @@
 -module(vb1).
--export([dubbel/1, start/0, doetest/1, insert/2, beach/1, lengtetail/1, lengtetail/2, doerecord/1]).
+-export([dubbel/1, start/0, doetest/1, insert/2, beach/1, lengtetail/1, lengtetail/2]).
 -vsn([1.0]).
 -author("Leo Rutten").
--record(punt, {x=0, y=0}).
 
 dubbel(X) ->
     2*X.
@@ -44,15 +43,3 @@ lengtetail([], Acc) ->
 lengtetail([X | Rest], Acc) ->
     L = 1 + Acc,
     lengtetail(Rest, L).
-
-doerecord(P = #punt{}) ->
-    io:format("P is een punt~n"),
-    io:format(" x is een ~p~n", [P#punt.x]),
-    io:format(" y is een ~p~n", [P#punt.y]);
-doerecord(P) ->
-    io:format("P is geen punt~n").
-
-P1 = #punt{x=5, y=7},
-io:format("P1 ~p~n", [P1]),
-doerecord(P1),
-doerecord(56),
