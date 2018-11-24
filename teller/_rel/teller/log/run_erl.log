@@ -1,0 +1,8 @@
+run_erl [9124] Sat Nov 24 20:01:34 2018
+Args before exec of shell:
+run_erl [9124] Sat Nov 24 20:01:34 2018
+argv[0] = sh
+run_erl [9124] Sat Nov 24 20:01:34 2018
+argv[1] = -c
+run_erl [9124] Sat Nov 24 20:01:34 2018
+argv[2] = exec "/home/jonathan/voorbeeldencursusleo/teller/_rel/teller/bin/teller" "console" '' 
