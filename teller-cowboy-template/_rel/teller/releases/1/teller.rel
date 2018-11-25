@@ -1,0 +1,12 @@
+{release,{"teller","1"},
+         {erts,"10.1"},
+         [{kernel,"6.1"},
+          {stdlib,"3.6"},
+          {ranch,"1.2.1"},
+          {crypto,"4.3.3"},
+          {cowlib,"1.0.2"},
+          {cowboy,"1.0.4"},
+          {compiler,"7.2.5"},
+          {syntax_tools,"2.1.6"},
+          {erlydtl,"git"},
+          {teller,"0.1.0"}]}. 

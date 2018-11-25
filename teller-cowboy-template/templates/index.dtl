@@ -1,0 +1,7 @@
+<html>
+    <body>
+        <h1>Teller</h1>
+        <p>De teller is nu {{ waarde }}.</p>
+        <p>Herlaad de pagina om de nieuwe waarde van de teller te zien.</p>
+    </body>
+</html>
